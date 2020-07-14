@@ -57,7 +57,11 @@
     <!-- Reference to the message that will be returned to the requester-->
     <variable name="outputVariable" messageType="client:BPELProcess1ResponseMessage"/>
   </variables>
-
+  <faultHandlers>
+    <catchAll>
+      <rethrow name="Rethrow1"/>
+    </catchAll>
+  </faultHandlers>
   <!-- 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
      ORCHESTRATION LOGIC                                               
