@@ -8,7 +8,6 @@
    </partnerlink_locations>
    <graph_layout viewport="0,0,1507,781" show_swimlanes="true">
       <layout_item collapsed="false" xpath="/process" type="process" showhandlers="true"/>
-      <layout_item collapsed="false" xpath="/process/faultHandlers/catchAll" type="catchall"/>
       <layout_item collapsed="false" xpath="/process/sequence" type="sequence"/>
    </graph_layout>
    <bookmarks/>
