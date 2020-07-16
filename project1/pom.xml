@@ -133,7 +133,7 @@
         <id>serverConfig-dev</id>
         <activation>
           <property>
-            <name>Environment</name>
+            <name>env</name>
             <value>dev</value>
           </property>
         </activation>
