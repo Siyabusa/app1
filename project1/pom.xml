@@ -113,7 +113,7 @@
                   </goals>
                   <configuration>
                     <files>
-                      <file>environment.properties</file>
+                      <file>VarEnvironment.properties</file>
                     </files>
                   </configuration>
                 
